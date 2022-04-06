@@ -1,1 +1,1 @@
-https://github.com/Azat-Farmanyan/rsschool-cv/blob/gh-pages/cv.md
+https://azat-farmanyan.github.io/rsschool-cv/
