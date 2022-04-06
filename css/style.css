@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+
+
+
+body{
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333333;
+}
+.wrapper {
+
+}
+.avatar{
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  display: block;
+}
+.content {
+  max-width: 785px;
+  margin: 0 auto;
+  display: flex;
+}
+.left-side {
+  background-color: #EEFEFF;
+  max-width: 250px;
+  padding: 25px;
+}
+.profile {
+  margin-bottom: 27px;
+}
+.name-surname {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 9px;
+}
+.job {
+  font-size: 16px;
+  text-align: center;
+}
+.block-info {
+  margin-bottom: 20px;
+}
+.title {
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.line-under-title {
+  border: 1px solid rgba(108, 206, 248, 0.5);  
+  margin-bottom: 10px;
+}
+.block-info-item {
+}
+.sub-title {
+  margin-bottom: 10px;
+  color: #333333;
+  font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+}
+.sub-title:hover{
+  color: #088BC3;
+  font-size: 12px;
+}
+.links{
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
+}
+.links:hover{
+color: #088BC3;
+}
+.block-links {
+margin-bottom: 10px;
+}
+.block-languages {
+}
+.each-language {
+}
+.elipses {
+  margin-bottom: 10px;
+}
+.right-side {
+  padding: 25px;
+}
+.right-blocks{
+  margin-bottom: 20px;
+}
+.summary{
+}
+.code-example{
+}
+.rs-school{
+  display: flex;
+  justify-content: flex-end;
+}
+.rs-logo{
+  display: block;
+  width: 86px;
+  height: 32px;
+}
