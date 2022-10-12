@@ -1,28 +1,18 @@
-<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
 <!DOCTYPE html>
-<!-- Оболочка документа, указываем язык содержимого -->
-<html lang="ru">
-<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+<html lang="en">
 
 <head>
-	<script src="./app.js"></script>
-
-	<!-- Заголовок страницы в браузере -->
 	<title>Azat Farmanyan | CV</title>
-	<!-- Подключаем CSS -->
-
-	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:wght@500&display=swap"
 		rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
-	<!-- Кодировка страницы -->
-	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 </head>
-<!-- Отображаемое тело страницы -->
 
 <body>
 	<div class="wrapper">
@@ -31,7 +21,7 @@
 				<div class="profile">
 					<img class="avatar" src="img/avatar.png" alt="Azat Farmanyan">
 					<h1 class="name-surname">Azat<br>Farmanyan</h1>
-					<h2 class="job">Software Engineer</h2>
+					<h2 class="job">Front-end Developer</h2>
 				</div>
 				<div class="block-info">
 					<h3 class="title ">INFO</h3>
@@ -129,12 +119,17 @@
 						<li class="sub-title">- JavaScript (Fundamentals,Functional Programming, OOP, Asynchronous JavaScript,
 							ES6+,DOM),JSON.
 						</li>
+						<li class="sub-title">- Typescript</li>
+						<li class="sub-title">- Angular</li>
+
 						<li class="sub-title">- Version control: Git (remote service GitHub).
 						</li>
 						<li class="sub-title">- C/C++
 						</li>
 						<li class="sub-title">- Java</li>
+
 						<li class="sub-title">- C#</li>
+
 						<li class="sub-title">- Windows OS
 						</li>
 						<li class="sub-title">- Microsoft office
@@ -150,19 +145,7 @@
 					<h3 class="title ">CODE EXAMPLE</h3>
 					<div class="line-under-title"></div>
 					<p class="sub-title code-example">
-						function presses(phrase) {<br>
-						let result = []<br>
-						// 1 2 3 4 5<br>
-						let arr = ['', 'ADGJMPTW* #1', "BEHKNQUX0", 'CFILORVY', 'SZ234568', '79']<br>
-						phrase.toUpperCase().split('').forEach(el => {<br>
-						arr.forEach((elem, index) => {<br>
-						if (elem.includes(el)) {<br>
-						result.push(index)<br>
-						}<br>
-						})<br>
-						});<br>
-						return result.reduce((sum, el) => sum + el, 0)<br>
-						}
+						<img src="img/code-example.png" alt="code-example">
 					</p>
 				</div>
 				<div class="code right-blocks">
@@ -181,6 +164,8 @@
 			</div>
 		</div>
 	</div>
+	<script src="./app.js"></script>
+
 </body>
 
 </html>
